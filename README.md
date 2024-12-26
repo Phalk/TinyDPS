@@ -1,5 +1,7 @@
 **TinyDPS is a lightweight damage and healing meter.**
-Now updated for TWW. Ps.: I made this fork since the original code hasn't been updated for 3 years (and 2 expansions). If the original developer returns and update their branch, I'll drop this one.
+
+Now updated for TWW. 
+Ps.: I made this fork since the original code hasn't been updated for 3 years (and 2 expansions). If the original developer returns and update their branch, I'll drop this one.
 
 Looking for an addon to measure damage and healing without adversely affecting your gameplay experience? TinyDPS should suit your needs. By excluding unnecessary features (graphs, pie charts, extensive data collection, etc.) and offering a minimalistic interface, TinyDPS attempts to maintain a balance between information and performance.
 
