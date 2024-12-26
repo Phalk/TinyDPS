@@ -1,0 +1,8 @@
+Changelog
+
+26/12/2024
+- Updated to be compatible with The War Within (fixed some API changes).
+- Brazilian Portuguese localization.
+- Added a fancy icon.
+- Added the option to toggle the display via the add-ons compartment above the minimap.
+- Added a help menu in the interface options -> AddOns with the help of the addon.
