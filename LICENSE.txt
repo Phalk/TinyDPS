@@ -1,4 +1,4 @@
-﻿Copyright © 2010-2021 Sideshow, Talyrius <contact@talyrius.net>.
+﻿Copyright © 2010-2024 Sideshow, Talyrius <contact@talyrius.net>, Phalk (phalk@phalk.net).
 
 All rights reserved.
 
