@@ -1,9 +1,0 @@
-package-as: TinyDPS
-enable-nolib-creation: yes
-
-externals:
-  Libs/LibStub: https://repos.wowace.com/wow/libstub/tags/1.0
-  Libs/LibBossIDs-1.0: https://repos.wowace.com/wow/libbossids-1-0/trunk
-
-ignore:
-  - README.md
