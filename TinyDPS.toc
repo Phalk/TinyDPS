@@ -1,22 +1,18 @@
-## Interface: 90105
+## Interface: 110007
 
 ## Title: TinyDPS
 ## Notes: A lightweight damage and healing meter.
 
-## Author: Talyrius, Sideshow (former)
-## Version: @project-version@
-## X-Revision: @project-abbreviated-hash@
-## X-Date: @project-date-iso@
-## X-Copyright: Copyright © 2010-2021 Sideshow, Talyrius.
+## Author: Phalk, Talyrius (former), Sideshow (former)
+## Version: 110007
+## X-Copyright: Copyright © 2010-2024 Sideshow, Talyrius, Phalk.
 ## X-License: All rights reserved.
-## X-Email: contact@talyrius.net
-## X-Website: https://github.com/Talyrius/TinyDPS
-## X-Feedback: https://www.wowinterface.com/downloads/info16780-TinyDPS.html#comments
-## X-Localizations: enUS, deDE, esES, esMX, frFR, itIT, ruRU, koKR, zhCN
+## X-Email: phalk@phalk.net
+## X-Website: https://github.com/Phalk/TinyDPS
+## X-Feedback: https://github.com/Phalk/TinyDPS
+## X-Localizations: enUS, deDE, esES, esMX, frFR, itIT, ruRU, koKR, zhCN, ptBR
 ## X-Category: Combat, Caster, Damage Dealer, Healer, Tank
 ## X-Icon: Interface\AddOns\TinyDPS\Textures\minimapbutton
-## X-Curse-Project-ID: 23664
-## X-WoWI-ID: 16780
 
 ## SavedVariables: tdps, tdpsPosition, tdpsFont, tdpsNumberOfFights, tdpsF, tdpsV, tdpsTextOffset, tdpsColorAlpha, tdpsVisibleBars, tdpsReportLength
 ## SavedVariablesPerCharacter: tdpsVersion, tdpsPlayer, tdpsLink, tdpsPet, tdpsFight, tdpsPartySize, tdpsCombat, tdpsNewFight
@@ -24,6 +20,8 @@
 ## LoadManagers: AddonLoader
 ## X-LoadOn-Always: delayed
 ## X-LoadOn-Combat: true
+## AddonCompartmentFunc: toggleTinyDPS
+## IconTexture: Interface\AddOns\TinyDPS\Textures\tinydps-32.blp
 
 #@no-lib-strip@
 Libs\LibStub\LibStub.lua
@@ -31,7 +29,3 @@ Libs\LibBossIDs-1.0\lib.xml
 #@end-no-lib-strip@
 
 TinyDPS.lua
-
-#@debug@
-## Version: DEV
-#@end-debug@
